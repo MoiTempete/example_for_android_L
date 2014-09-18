@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <Button
+        android:id="@+id/btn_recycler_vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="VERTICAL RECYCYLERVIEW"
+        style="@style/AppTheme"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/btn_sample_recycler"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="HORIZONTAL RECYCYLERVIEW"
+        style="@style/AppTheme"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/btn_animation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/AppTheme"
+        android:text="WIDGET ANIMATION"
+        android:padding="5dp"/>
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_graphics"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--style="@style/AppTheme"-->
+        <!--android:text="graphics"-->
+        <!--android:padding="5dp"/>-->
+
+    <Button
+        android:id="@+id/btn_Transition"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/AppTheme"
+        android:text="FRAGMENT / ACTIVITY TRANSITION"
+        android:padding="5dp"/>
+
+
+</LinearLayout>
+

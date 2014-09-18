@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.youku.example.moi"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="L"/>
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:theme="@style/moi_default">
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".activity.RecyclerViewActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".activity.RecyclerViewActivity2"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".activity.AnimationActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".activity.GraphicsActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".activity.TransitionActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".fragment.v4.TestFragmentV4Activity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".activity.TestActivities"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".activity.TestActivityFirst"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".activity.TestActivitySecond"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".fragment.high.TestFragmentActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".activity.FirstActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".activity.SecondActivity"
+            android:screenOrientation="portrait"/>
+
+    </application>
+</manifest>

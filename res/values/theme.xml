@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="moi_default" parent="android:Theme">
+		<item name="android:windowNoTitle">true</item>
+        <item name="android:theme">@android:style/Theme.Material</item>
+	</style>
+</resources>
